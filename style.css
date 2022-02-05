@@ -1,0 +1,303 @@
+.navbarcolor{
+  background: white;
+}
+
+#menuright{
+    margin-left: auto;
+}
+
+.w3l-main-banner h3.banner-text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: var(--title-color); }
+  
+  .w3l-main-banner .banner-info p {
+    font-size: 18px;
+    color: var(--text-color);
+    display: inline-block;
+    line-height: 28px;
+    max-width: 650px; }
+  
+  .w3l-main-banner .banner-slider {
+    position: relative;
+    z-index: 1; }
+  
+  .w3l-main-banner .companies-wrapper {
+    background: rgba(254, 146, 64, 0.05); }
+  
+  .w3l-main-banner .banner-view {
+    background: url(banner.png) no-repeat right;
+    background-size: contain;
+    min-height: 700px;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;}
+  
+  .w3l-main-banner .banner-view:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1; }
+  
+  @media (max-width: 1280px) {
+    .w3l-main-banner .banner-view {
+      min-height: 650px; } }
+  
+  @media (max-width: 992px) {
+    .w3l-main-banner h3.gallery4-head {
+      font-size: 30px;
+      line-height: 37px; }
+    .w3l-main-banner h3.banner-text {
+      font-size: 45px;
+      line-height: 58px; }
+    .w3l-main-banner .banner-top-inner-page {
+      min-height: 180px; } }
+  
+  @media (max-width: 991px) {
+    .w3l-main-banner .banner-view {
+      min-height: 600px; } }
+  
+  @media (max-width: 900px) {
+    .w3l-main-banner h3.banner-text {
+      font-size: 40px;
+      line-height: 55px; }
+    .w3l-main-banner .banner-top-inner-page {
+      min-height: 150px; } }
+  
+  @media (max-width: 768px) {
+    .w3l-main-banner .banner-view:before {
+      background: rgba(255, 255, 255, 0.58);
+      margin-left: -25px;
+      margin-right: -25px; } }
+  
+  @media (max-width: 600px) {
+    .w3l-main-banner h3.gallery4-head {
+      margin-bottom: 20px; }
+    .w3l-main-banner .banner-view {
+      min-height: 550px; } }
+  
+  @media (max-width: 576px) {
+    .w3l-main-banner .banner-view:before {
+      background: rgba(255, 255, 255, 0.58);
+      margin-left: -15px;
+      margin-right: -15px; } }
+  
+  @media (max-width: 569px) {
+    .w3l-main-banner h3.gallery4-head {
+      font-size: 26px;
+      line-height: 34px; }
+    .w3l-main-banner h3.banner-text {
+      font-size: 32px;
+      line-height: 40px; }
+    .w3l-main-banner .banner-view {
+      min-height: 420px; }
+    .w3l-main-banner .banner-top-inner-page {
+      min-height: 120px; } }
+  
+  @media (max-width: 500px) {
+    .w3l-main-banner .banner-info p {
+      font-size: 16px;
+      line-height: 24px; }
+    .w3l-main-banner .banner-view {
+      min-height: 340px; } }
+  
+  @media (max-width: 440px) {
+    .w3l-main-banner h3.banner-text {
+      font-size: 26px;
+      line-height: 32px; } }
+  
+  @media (max-width: 380px) {
+    .w3l-main-banner .banner-view {
+      min-height: 320px; } }
+
+.boldtext{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.boldtexth1{
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+#butttext{
+  margin-top: 6px;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-family: serif;
+}
+
+#nonclickbutt{
+  cursor: text;
+  border-color: black;
+}
+
+#buttclick1{
+  cursor: pointer;
+  padding: 0.7em;
+  width: 11em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buttclick1:hover{
+  color: white;
+}
+
+#buttclick2{
+  cursor: pointer;
+  padding: 0.7em;
+  width: 8em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buttclick2:hover{
+  color: white;
+}
+
+#learnany{
+  font-family: serif;
+  font-weight: bold;
+}
+
+.compare{
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: orangered;
+}
+
+.comparehead{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins",serif;
+  }
+
+.comparelist{
+  font-family: "Poppins",serif;
+}
+
+#exclusivebutt1{
+  width: 100%;
+  font-family: "Poppins",fantasy;
+  cursor: pointer;
+}
+
+#exclusivebutt1:hover{
+  color: white;
+}
+
+#exclusivebutt2{
+  width: 100%;
+  font-family: "Poppins",fantasy;
+  cursor: pointer;
+}
+
+#exclusivebutt2:hover{
+  color: white;
+}
+
+.exclusivetwobutt{
+
+  padding-top: 20px;
+
+}
+
+.courseshead{
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: orangered;
+  margin-bottom: 20px;
+}
+
+.coursesdetails{
+  background: white;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.coursesdetails:hover{
+  background: lightskyblue;
+}
+
+#students{
+  margin-bottom: 20px;
+  color: orangered;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#copyright{
+  font-family: "Poppins";
+  color: black;
+}
+
+#menubutt{
+  cursor: pointer;
+}
+
+#menubutt:hover{
+  color: white;
+}
+
+#excusivepageheadingcolor{
+  color: red;
+}
+
+#excusivepageheading{
+  margin-top: 40px;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+#excusivepagesubheading{
+  margin-top: 15px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.excusivepage-included{
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: orangered;
+  margin-bottom: 20px;
+}
+
+.excusivepage-includedtext{
+  font-family: "Poppins";
+  font-size: 17px;
+}
+
+.excusivepage-includedbody{
+  margin-top: 14px;
+}
+
+#we-believe{
+  font-family: "Poppins";
+}
+
+#logo{
+  background: black;
+  color: white;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+
+#logo-part{
+  font-weight: bold;
+  padding: 0.1rem;
+}
+
+.fix-head-scroll{
+  padding-top: 57px;
+}
+
+#headlock{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
